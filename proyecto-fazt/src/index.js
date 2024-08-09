@@ -11,6 +11,8 @@ app.set('port', 8080);
 //  --motor de plantilla
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
+//  --renderiza los archivos html para no hacerlos ejs
+app.engine('html', require('ejs').renderFile);
 
 // MIDDLEWARES
 
