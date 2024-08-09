@@ -16,9 +16,7 @@ app.set('views', path.join(__dirname, 'views'));
 
 // ROUTES
 // http://localhost:8080/proyecto-fazt
-app.get('/proyecto-fazt', (req, res) => {
-    res.render('index', {title: "Pagina web"});
-})
+app.use(require('./routes/index'));
 
 // STATIC FILES
 
