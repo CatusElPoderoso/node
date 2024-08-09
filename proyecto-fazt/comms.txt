@@ -3,6 +3,8 @@ npm init --yes
 
 #-- frameworks del server
 npm i express ejs morgan
+#-- dependencias de desarrollo (no es necesario para que funcione el proyecto)
+npm i nodemon -D
 
 #-- scripts
 npm run dev
