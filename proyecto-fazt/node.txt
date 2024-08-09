@@ -1,2 +1,4 @@
 
 res.sendFile(path.join(__dirname, 'views/index.html'));
+
+git push -u origin main
