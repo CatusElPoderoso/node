@@ -3,3 +3,6 @@ npm init --yes
 
 #-- frameworks del server
 npm i express ejs morgan
+
+#-- scripts
+npm run dev
