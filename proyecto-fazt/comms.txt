@@ -1,0 +1,5 @@
+#-- crear el proyecto
+npm init --yes
+
+#-- frameworks del server
+npm i express ejs morgan
