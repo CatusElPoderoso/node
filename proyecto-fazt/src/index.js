@@ -2,14 +2,23 @@
 const express = require('express');
 //  --donde la constate app es el servidor
 const app = express();
+//  --ruta absoluta del archivo index.js
+const path = require('path');
 
 // SETTINGS
 //  --establecemos el puerto en el que se aloja la aplicacion
 app.set('port', 8080);
+//  --motor de plantilla
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
 
 // MIDDLEWARES
 
 // ROUTES
+// http://localhost:8080/proyecto-fazt
+app.get('/proyecto-fazt', (req, res) => {
+    res.render('index');
+})
 
 // STATIC FILES
 
