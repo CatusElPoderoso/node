@@ -24,5 +24,5 @@ app.use(require('./routes/index'));
 
 // LISTENING SERVER
 app.listen (app.get('port'), () => {
-    console.log('Servidor corriendo en el puerto', app.get('port'));
+    console.log('http://localhost:'+app.get('port')+'/proyecto-fazt');
 })  //  --el servidor escucha en el puerto 8080
