@@ -6,3 +6,6 @@ npm init -y
 #-- ejecutar el servidor
 npm run serve
 
+#-- dependencias 
+npm i express
+
