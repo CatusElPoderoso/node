@@ -21,6 +21,7 @@ app.engine('html', require('ejs').renderFile);
 app.use(require('./routes/index'));
 
 // STATIC FILES
+app.use(express.static(path.join(__dirname, 'public')));
 
 // LISTENING SERVER
 app.listen (app.get('port'), () => {
