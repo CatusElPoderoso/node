@@ -16,3 +16,6 @@ app.listen (app.get('port'), () => {
     console.log('http://localhost:'+app.get('port')+'/'+app_name);
 })  //  --el servidor escucha en el puerto 8080
 
+app.get('/'+app_name, (req, res) => {
+    res.send('Hello World');
+})
