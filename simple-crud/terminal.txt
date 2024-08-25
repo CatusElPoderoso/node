@@ -1,6 +1,8 @@
 #-- https://youtu.be/_7UQPve99r4?si=0pZOJYkpmC-OeXZH
+#-- https://github.com/edferreira?tab=overview&from=2024-08-01&to=2024-08-24
 #-- iniciamos node (package.json)
 npm init -y
 
 #-- ejecutar el servidor
 npm run serve
+
